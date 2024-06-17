@@ -8,25 +8,11 @@ show_menu() {
     echo "节点社区 Telegram 群组: https://t.me/niuwuriji"
     echo "节点社区 Telegram 频道: https://t.me/niuwuriji"
     echo "请选择要执行的操作:"
-    echo "1. 安装常规节点"
-    echo "2. 重启节点"
-    echo "3. Mac 节点安装"
-    echo "4. 更新本脚本"
-    echo "5. 卸载节点"
-    echo "6. 升级节点程序版本"
-    echo "7. 开发节点程序版本 (针对contabo)"
-    echo "8. 常规节点程序版本 (针对contabo)"
-    echo "9. 安装grpc"
-    echo "===================================="
-    echo "单独使用功能"
-    echo "===================================="
-    echo "4. 独立启动挖矿 (安装好常规节点后搭配使用)"
-    echo "5. 备份功能"
-    echo "===================================="
-    echo "收米查询"
-    echo "===================================="
-    echo "6. 查询余额 (需要先安装grpc)"
-    echo "请输入选项 (1-13): "
+    echo "1. 安装节点"
+    echo "2. 启动节点"
+    echo "3. 查看gethLog"
+    echo "4. 查看节点是否正常"
+    echo "5. 查看同步状态..."
 }
 
 # Function to handle user input
@@ -89,4 +75,3 @@ while true; do
     read -r choice
     handle_choice $choice
 done
-
